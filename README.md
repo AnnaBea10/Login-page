@@ -1,39 +1,3 @@
 # Login-page
  Primeira página de login (estilo dark mode) que fiz para  um trabalho de faculdade.
 
-
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login - dark mode</title>
-    <link rel="shortcut icon" href="FIBE.svg" type="imagen/x-icon">
-    <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-    <div class="main-login">
-        <div class="left-login">
-            <h1>Faça parte do nosso mundo!</h1>
-            <img src="cat-astronaut-animate.svg" alt="cat-astronaut-animate">
-        </div>
-
-    <div class="right-login">
-        <div class="card-login">
-            <h1>LOGIN</h1>
-            <div class="textfield">
-                <label for="usuario">Usuário</label>
-                <input type="text" name="usuario" placeholder="Usuário">
-            </div>
-            <div class="textfield">
-                <label for="senha">Senha</label>
-                <input type="password" name="senha" placeholder="Digite a sua senha">
-            </div>
-            <div>
-                <button class="btn-login">login</button>
-            </div>
-        </div>
-    </div>    
-</body>
-</html>
